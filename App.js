@@ -138,8 +138,8 @@ const DrawerNavigator = createDrawerNavigator({
   drawerWidth: 300
 });
  //export default createAppContainer(navigator);
- //var App = createAppContainer(navigator);
-var App = createAppContainer(Tabs);
+ var App = createAppContainer(navigator);
+//var App = createAppContainer(Tabs);
 //var App = createAppContainer(DrawerNavigator);
 export default () => {
   return <BlogProvider><App /></BlogProvider>

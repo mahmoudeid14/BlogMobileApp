@@ -18,17 +18,11 @@ const IndexScreen = ({ navigation }) => {
         };
     }, []);
 
-    // return (
-    //     <View>
-    //       <MyHeader navigation={navigation} title="Home" />
-    //       <Text>This is Home Screen</Text>
-    //     </View>
-    //   );
+
 
     return (
         <View>
-            {/* <MyHeader navigation={navigation} title="Home" /> */}
-            {/* <Button title="Add Post" onPress={addBlogPost}/> */}
+
 
             <FlatList
                 data={data}
